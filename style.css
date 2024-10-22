@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: #000;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    background-color: #000;
+    border: 2px solid #fff;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+/* Cambiamos el color cuando el mouse está sobre el botón */
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el botón de pausa */
+#pauseButton {
+    background-color: #dc3545;
+}
+
+#pauseButton:hover {
+    background-color: #c82333;
+}
+
+/* Centrado de los botones en la pantalla */
+#startButton, #pauseButton {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#gameCanvas {
+    display: block;
+}
